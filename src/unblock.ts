@@ -228,11 +228,11 @@ export const stopUNMProcesses = async () =>
     await betterncm.app.exec(`taskkill /f /fi """"IMAGENAME eq UnblockNeteaseMusic-*""""`);
 
 export const OtherSettings = [
-    // {
-    //     "name": "激活本地SVip",
-    //     "code": "ENABLE_LOCAL_VIP",
-    //     "enable": false,
-    // },
+    {
+        "name": "激活本地SVip",
+        "code": "ENABLE_LOCAL_VIP",
+        "enable": true,
+    },
     // {
     //     "name": "屏蔽应用内部分广告",
     //     "code": "BLOCK_ADS",
